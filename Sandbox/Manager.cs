@@ -16,6 +16,7 @@ namespace Sandbox
         }
         public override int GetSalaryPerMonth()
         {
+
             if (houres > 180)
             {
                 monthlyBonus = 100;
